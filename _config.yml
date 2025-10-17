@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Jaisal Sharma"
-  avatar : "/assets/images/bio.jpg"
+  avatar : "/assets/images/bio.png"
   bio    : "Prospective Graduate Student interested in Trustworthy AI research."
   links:
    # - label: "Website"
