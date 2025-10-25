@@ -9,9 +9,9 @@ profile:
   image: bio.PNG
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>+977-9818503256</p>
-    # <p>123 your address street</p>
-    <p>Kathmandu, Bagmati State, Nepal</p>
+    <p> +977-9818503256 </p>
+    <p>123 your address street</p>
+    <p> Kathmandu, Bagmati State, Nepal</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
