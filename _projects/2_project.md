@@ -1,15 +1,34 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: "SemDiff-QA: Semantic Differentiation for Multi-Choice QA"
+description: MCQA using discriminative ranking approach
 img: assets/img/3.jpg
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
+
+### Implementation Details
+
+- **Paper Implementation**: Re-architected T5-Base model based on DCQA research paper (ECAI 2024)
+- **Architecture Change**: Shifted from text generation to list-wise classification
+- **Performance**: Achieved 60.52% accuracy on CommonsenseQA dataset
+- **Optimization**: Memory-efficient training pipeline using Mixed Precision (FP16) and gradient accumulation
+
+### Technologies Used
+- T5-Base
+- PyTorch
+- Mixed Precision Training
+- GPU Optimization (T4 GPUs)
+
+### Development Timeline
+- **Start Date**: November 2025
+- **End Date**: November 2025
+
+### Key Achievement
+
+Successfully optimized deep learning training on limited computational resources by implementing mixed precision training and gradient accumulation techniques.
 Make your photos 1/3, 2/3, or full width.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:

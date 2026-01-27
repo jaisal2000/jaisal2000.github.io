@@ -2,15 +2,18 @@ cv:
   name: Jaisal Sharma
   label: Electronics, Communication, and Information Engineer
   email: sharmajaisal23@gmail.com
+  phone: +977-9818503256
   location: Kathmandu, Nepal
   image: ""
-  summary: Electronics, Communication, and Information Engineer with expertise in Machine Learning, Deep Learning Systems, and AI security.
+  summary: Electronics, Communication, and Information Engineer with expertise in Machine Learning, Deep Learning Systems, NLP, Generative AI (LLM, RAG), and AI security. Passionate about developing innovative solutions in trustworthy and fair AI systems.
 
   social_networks:
     - network: GitHub
       username: jaisal2000
+      url: "https://github.com/jaisal2000"
     - network: LinkedIn
       username: jaisalsharma
+      url: "https://linkedin.com/in/jaisalsharma"
 
   address:
     street: ""
@@ -24,14 +27,39 @@ cv:
       - institution: Pulchowk Campus, Tribhuvan University
         location: Lalitpur, Nepal
         url: ""
-        area: Electronics, Communication, and Information Engineering
+        area: Electronics, Communication and Information Engineering
         studyType: Bachelor
         start_date: 2020
         end_date: 2024
         score: ""
         courses: "Artificial Intelligence, Data Structures and Algorithms, Computer Networks, Object Oriented Programming, Embedded Systems, Computer Architecture and Organization, Numerical Methods"
         highlights:
-          - Relevant Coursework: Artificial Intelligence, Data Structures, and Algorithms.
+          - "Relevant Coursework: Artificial Intelligence, Data Structures and Algorithms, Computer Networks, Object Oriented Programming, Embedded Systems, Computer Architecture and Organization, Numerical Methods"
+
+    Research_Experience:
+      - position: Research Intern (Remote, Informal)
+        company: Wayne State University
+        supervisor: Dr. Lihui Liu, Assistant Professor
+        location: Remote
+        start_date: 2024-11-01
+        end_date: 2025-04-01
+        summary: Integrating Choice Differentiation and Knowledge Graph Reasoning for Enhanced LLM Multiple-Choice QA
+        highlights:
+          - "Participated in weekly meetings for research discussion, model design, and progress updates"
+          - "Conducted literature review, model design, and experimental evaluations under faculty mentorship"
+          - "Contributed to a Commonsense QA project integrating LLM-based reasoning with ConceptNet using GNNs"
+          - "Independently designed and implemented a prototype that improved model accuracy from 25% to 50%+ on CSQA and OBQA benchmarks, despite using a smaller LM and limited computational resources"
+
+      - position: Undergraduate Research Student
+        company: Pulchowk Campus
+        location: Lalitpur, Nepal
+        start_date: 2023-04-01
+        end_date: 2024-05-01
+        summary: "Colorizing Grayscale Images using Generative Adversarial Networks (GANs): A Deep Learning Approach"
+        highlights:
+          - "Conducted a comprehensive literature review on image colorization methods and deep learning frameworks"
+          - "Proposed and implemented a generative adversarial network (GAN) for realistic image colorization"
+          - "Researched and studied the colorization effectiveness in three different color models (LAB, YUV, and HSI)"
 
     Experience:
       - company: Real Time Solutions
@@ -39,36 +67,75 @@ cv:
         location: Lalitpur, Nepal
         start_date: 2024-07-01
         end_date: 2024-10-01
-        summary: Adapted the RAFT architecture using PyTorch to estimate river surface velocity, utilizing dense optical flow to quantify water motion from surveillance footage.
+        summary: ""
         highlights:
-          - Applied vision-based systems for flood monitoring across Nepal’s rivers.
+          - "Adapted the RAFT (Recurrent All-Pairs Field Transforms) architecture using PyTorch to estimate river surface velocity, utilizing dense optical flow to quantify water motion from surveillance footage"
+          - "Applied this vision-based system for flood monitoring across Nepal's rivers, analyzing flow vectors to detect critical discharge rates and enhance non-intrusive early warning capabilities"
 
-    Volunteer:
-      - company: LOCUS IOE Pulchowk
-        position: Volunteer
+    Teaching_Experience:
+      - position: Latex (Overleaf) Instructor
+        company: IEEE Pulchowk
+        location: Lalitpur, Nepal
+        start_date: 2023-06-01
+        end_date: 2023-06-30
+        summary: IEEE Pulchowk Latex Workshop
+        highlights:
+          - "Conducted hands-on sessions guiding participants through LaTeX basics and advanced formatting techniques"
+          - "Facilitated group discussions and provided personalized assistance to attendees during practical exercises to prepare lab reports, field reports and project reports"
+
+      - position: Software Fellowship Tutor
+        company: Locus Pulchowk
+        location: Lalitpur, Nepal
+        start_date: 2023-07-01
+        end_date: 2023-07-30
+        summary: ""
+        highlights:
+          - "Delivered tutorial on basics of Python Programming and Data Structures to students at the campus"
+
+    Leadership_and_Volunteering:
+      - position: Volunteer
+        company: LOCUS IOE Pulchowk
         location: Lalitpur, Nepal
         start_date: 2023-01-01
         end_date: 2024-01-01
-        summary: Volunteered at Locus, a national technological festival held annually at Pulchowk Campus, where various software projects, robotics demonstrations, and drone environments are showcased.
+        summary: ""
         highlights:
-          - Actively participated in organizing and supporting the drone competition during this event.
+          - "Volunteered at Locus, a national technological festival held annually at Pulchowk Campus, where various software projects, robotics demonstrations, and drone environments are showcased"
+          - "Actively participated in organizing and supporting the drone competition during this event"
 
-    Awards:
-      - title: Conference Participation Grant
-        authors:
-          - University of Turku, Finland
-        date: 2025-12-01
-        awarder: University of Turku
-        summary: Received full financial support for conference participation at ICACS 2025 Bangkok, Thailand.
+      - position: Tutor
+        company: Children in Technology (CIT) Program
+        location: Baglung District, Nepal
+        start_date: 2024-11-01
+        end_date: 2024-11-30
+        summary: ""
+        highlights:
+          - "Visited rural areas and various schools across Baglung District, where I delivered engaging presentations on digital transformation to students"
+          - "Provided presentations to school level students on the importance and benefits of integrating technology in education"
+
+      - position: Technical Coordinator
+        company: Pulchowk Music Club and Research Center
+        location: Lalitpur, Nepal
+        start_date: 2023-04-01
+        end_date: 2024-03-31
+        summary: ""
+        highlights:
+          - "Organized and managed technical aspects of music fests, including sound engineering, equipment setup, and live performance coordination, ensuring seamless event execution"
+          - "Conducted workshops and other music-related events, providing technical training and fostering collaboration among participants, enhancing the club's overall engagement and impact"
 
     Publications:
       - title: Automated Image Colorization using Generative Adversarial Networks
         authors:
           - Jaisal Sharma
-        publisher: 9th International Conference on Algorithms, Computing and Systems (ICACS)
+          - Rahul Shrestha
+          - Dibakar R. Pant
+          - Jukka-Pekka Skön
+          - Jukka Heikkonen
+          - Rajeev Kanth
+        publisher: "9th International Conference on Algorithms, Computing and Systems (ICACS), Bangkok, Thailand"
         releaseDate: 2025-12-01
         url: ""
-        summary: Accepted for ACM Digital Library (Scopus & Ei Compendex). Paper received Best Presentation Award.
+        summary: "Accepted for ACM Digital Library (Scopus & Ei Compendex). Paper received Best Presentation Award"
 
     Skills:
       - name: Programming Languages
@@ -79,9 +146,24 @@ cv:
       - name: Frameworks/Technologies
         level: Advanced
         icon: fa-solid fa-cogs
-        keywords: "Pytorch, OpenCV, Langchain, Numpy, Pandas, Pytorch Geometric, Streamlit, Scikit-Learn, Flask, HTML, CSS"
+        keywords: "PyTorch, OpenCV, LangChain, NumPy, Pandas, PyTorch Geometric, Streamlit, Scikit-Learn, Flask, HTML, CSS"
+
+      - name: "Machine Learning & AI"
+        level: Advanced
+        icon: fa-solid fa-brain
+        keywords: "Deep Learning, NLP, LLMs, RAG, GANs, Graph Neural Networks, Transfer Learning, Fine-tuning"
+
+      - name: "Databases & Tools"
+        level: Intermediate
+        icon: fa-solid fa-database
+        keywords: "MATLAB, Proteus Simulation, MS Office, Google Suites, Overleaf (LaTeX)"
 
     Certificates:
+      - name: Licensed Electronics Engineer
+        date: 2024-10-01
+        issuer: Nepal Engineering Council
+        icon: fa-solid fa-certificate
+
       - name: AWS Academy Data Engineering
         date: 2024-10-01
         issuer: AWS Training and Certifications
@@ -92,22 +174,98 @@ cv:
         issuer: IBM Coursera
         icon: fa-solid fa-brain
 
+      - name: Databases and SQL for Data Science with Python
+        date: 2024-07-01
+        issuer: IBM Coursera
+        icon: fa-solid fa-database
+
+      - name: Machine Learning with Python
+        date: 2024-07-01
+        issuer: IBM Coursera
+        icon: fa-solid fa-brain
+
+      - name: Data Science Methodology
+        date: 2024-07-01
+        issuer: IBM Coursera
+        icon: fa-solid fa-chart-line
+
     Projects:
-      - name: GraLLM-Tutor: An Explainable AI Framework
-        summary: Engineered a novel explainable AI (XAI) framework that synergizes a large language model (Llama 3) with a structured commonsense knowledge graph (ConceptNet) to ground AI-generated answers in verifiable logic.
+      - name: "GraLLM-Tutor: An Explainable AI Framework"
+        summary: "LLM + Knowledge Graph integration for educational AI systems"
         highlights:
-          - Developed an automated reasoning pipeline that performs LLM-based concept extraction.
+          - "Engineered a novel explainable AI (XAI) framework that synergizes a large language model (Llama 3) with a structured commonsense knowledge graph (ConceptNet) to ground AI-generated answers in verifiable logic"
+          - "Developed an automated reasoning pipeline that performs LLM-based concept extraction, queries for relational paths via the ConceptNet API, and synthesizes disparate knowledge fragments into a clear explanation"
         start_date: 2025-04-01
         end_date: 2025-04-30
+        technologies: "Llama 3, ConceptNet, GNNs, Python"
+
+      - name: "SemDiff-QA: Semantic Differentiation for Multi-Choice Question Answering"
+        summary: "MCQA using discriminative ranking approach"
+        highlights:
+          - "Implemented the DCQA research paper (ECAI 2024) by re-architecting a T5-Base model into a discriminative ranker, shifting from text generation to list-wise classification to resolve semantic drift"
+          - "Engineered a memory-efficient training pipeline using Mixed Precision (FP16) and gradient accumulation to optimize performance on T4 GPUs, achieving 60.52% accuracy on the CommonsenseQA dataset"
+        start_date: 2025-11-01
+        end_date: 2025-11-30
+        technologies: "T5-Base, PyTorch, Mixed Precision Training"
+
+      - name: "Defending Against RAG Prompt Injection Using DPO-Based Fine-Tuning"
+        summary: "Security in RAG systems against adversarial attacks"
+        highlights:
+          - "Executed advanced Indirect Prompt Injection attacks on RAG systems using multi-turn poisoned knowledge bases and automatically generated adversarial queries"
+          - "Implemented a Direct Preference Optimization (DPO) defense with LoRA adapters, training the LLM to resist subtle non-imperative misinformation while preserving utility on benign queries"
+        start_date: 2025-04-01
+        end_date: 2025-04-30
+        technologies: "RAG, DPO, LoRA, LLMs, Security"
 
       - name: Medical Chatbot & Knowledge Retrieval Systems
-        summary: Developed an AI-powered medical research assistant using LangChain and Pinecone, implementing advanced document retrieval techniques to process clinical literature.
+        summary: "RAG-based medical research assistant application"
         highlights:
-          - Engineered a hybrid NLP pipeline combining dense vector embeddings with LLM’s generative capabilities.
+          - "Developed an AI-powered medical research assistant using LangChain and Pinecone, implementing advanced document retrieval techniques to process 5,699 text chunks from clinical literature"
+          - "Engineered a hybrid NLP pipeline combining dense vector embeddings with LLM's generative capabilities"
         start_date: 2024-06-01
         end_date: 2024-06-30
+        technologies: "LangChain, Pinecone, RAG, Vector Embeddings"
 
-    References:
-      - name: Dr. Lihui Liu
-        icon: fa-solid fa-user
-        reference: Research mentor during internship at Wayne State University.
+      - name: Image Colorization using Deep Learning (GANs)
+        summary: "Computer vision application using generative models"
+        highlights:
+          - "Proposed deep learning-based image colorization method utilizing generative adversarial networks (GANs)"
+          - "Demonstrated efficacy in colorizing black and white images, offering a useful approach in computer vision applications"
+        start_date: 2023-06-01
+        end_date: 2024-02-01
+        technologies: "PyTorch, GANs, OpenCV, Deep Learning"
+
+      - name: Graph Neural Networks Recommender System with LightGCN
+        summary: "Recommendation system using graph-based deep learning"
+        highlights:
+          - "Developed a recommendation system leveraging LightGCN (Light Graph Convolutional Network) with supervised learning"
+          - "Fine-tuned supervised learning techniques to enhance model performance, optimizing hyperparameters and evaluating results using metrics such as precision and F1 score"
+        start_date: 2024-06-01
+        end_date: 2024-06-30
+        technologies: "PyTorch Geometric, LightGCN, Graph Neural Networks"
+
+      - name: "Fine Tuning BERT-base-uncased Hugging Face Model on Kaggle Hate Speech Dataset"
+        summary: "NLP application for toxic language classification"
+        highlights:
+          - "Achieved improved accuracy in classifying toxic language, while applying techniques such as tokenization, model evaluation, and hyperparameter tuning to optimize performance for real-world NLP applications"
+        start_date: 2024-09-01
+        end_date: 2024-09-30
+        technologies: "BERT, HuggingFace, Transformers, NLP"
+
+    Awards:
+      - title: Conference Participation Grant
+        date: 2025-12-01
+        awarder: University of Turku, Finland
+        summary: Received full financial support for conference participation at ICACS 2025 Bangkok, Thailand
+
+      - title: Undergraduate Engineering Scholarship
+        date: 2019-12-01
+        awarder: Institute of Engineering, Pulchowk Campus
+        summary: "All Nepal Rank 252 - Top 4%. Awarded a prestigious merit-based scholarship covering full tuition fees for the undergraduate degree"
+
+      - title: High School Excellence Award
+        date: 2017-07-01
+        awarder: Nepal Government
+        summary: "GPA 3.75. Awarded a merit-based scholarship that provided significant fee waiver and facilities for high school degree"
+
+

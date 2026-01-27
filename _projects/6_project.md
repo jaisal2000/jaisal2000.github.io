@@ -1,17 +1,44 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: "Graph Neural Networks Recommender System with LightGCN"
+description: Recommendation system using graph-based deep learning
+img: assets/img/6.jpg
+importance: 6
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+A recommendation system leveraging LightGCN (Light Graph Convolutional Network) with supervised learning to provide accurate and efficient recommendations.
+
+### Key Features
+
+- **LightGCN Architecture**: Simplified yet powerful graph neural network design
+- **Supervised Learning**: Fine-tuned learning techniques for enhanced performance
+- **Hyperparameter Optimization**: Systematic tuning for best performance
+- **Comprehensive Evaluation**: Uses precision and F1 score metrics
+
+### Implementation Details
+
+- Graph-based representation of user-item interactions
+- Efficient convolution operations for scalability
+- Supervised ranking for personalized recommendations
+- Performance evaluation using standard metrics
+
+### Technologies Used
+- PyTorch Geometric
+- LightGCN
+- Graph Neural Networks (GNNs)
+- Supervised Learning
+- Python
+
+### Development Timeline
+- **Start Date**: June 2024
+- **End Date**: June 2024
+
+### Impact
+
+Demonstrates how graph neural networks can effectively model collaborative filtering for personalized recommendations with improved efficiency.
 
     ---
     layout: page

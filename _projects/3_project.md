@@ -1,15 +1,37 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
+title: "Defending Against RAG Prompt Injection Using DPO-Based Fine-Tuning"
+description: Security in RAG systems against adversarial attacks
 img: assets/img/7.jpg
-redirect: https://unsplash.com
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
+## Overview
+
+This project focuses on securing Retrieval-Augmented Generation (RAG) systems against prompt injection attacks using Direct Preference Optimization (DPO) fine-tuning.
+
+### Key Components
+
+- **Adversarial Attack Execution**: Multi-turn poisoned knowledge bases and automatically generated adversarial queries
+- **Indirect Prompt Injection Testing**: Advanced attack scenarios on RAG systems
+- **DPO Defense Implementation**: Direct Preference Optimization with LoRA adapters
+- **Dual Objective**: Resist misinformation while maintaining utility on benign queries
+
+### Technologies Used
+- RAG Systems
+- Direct Preference Optimization (DPO)
+- LoRA Adapters
+- Large Language Models (LLMs)
+- Security & Adversarial Testing
+
+### Development Timeline
+- **Start Date**: April 2025
+- **End Date**: April 2025
+
+### Impact
+
+Demonstrates effective defenses against sophisticated prompt injection attacks while preserving model utility on legitimate queries.
 Make your photos 1/3, 2/3, or full width.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:

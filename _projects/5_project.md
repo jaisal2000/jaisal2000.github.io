@@ -1,17 +1,42 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: "Image Colorization using Deep Learning (GANs)"
+description: Computer vision application using generative models
+img: assets/img/5.jpg
+importance: 5
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+A deep learning-based approach to automated image colorization utilizing generative adversarial networks (GANs) to transform black and white images into realistic color versions.
+
+### Key Achievements
+
+- **GAN Implementation**: Developed custom generative adversarial network architecture
+- **Color Model Research**: Evaluated effectiveness across LAB, YUV, and HSI color models
+- **Comprehensive Literature Review**: Studied state-of-the-art image colorization methods
+- **Practical Application**: Useful approach in computer vision applications
+
+### Technical Approach
+
+- Generative model trained to produce realistic color predictions
+- Discriminative model to evaluate color authenticity
+- Multi-color space analysis for optimal results
+
+### Technologies Used
+- PyTorch
+- Generative Adversarial Networks (GANs)
+- OpenCV
+- Deep Learning
+
+### Development Timeline
+- **Start Date**: June 2023
+- **End Date**: February 2024
+
+### Research Publication
+
+This work was published as "Automated Image Colorization using Generative Adversarial Networks" and presented at ICACS 2025 in Bangkok, receiving a Best Presentation Award.
 
     ---
     layout: page

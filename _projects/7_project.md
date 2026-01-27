@@ -1,18 +1,44 @@
 ---
 layout: page
-title: project 7
-description: with background image
+title: "Fine Tuning BERT-base-uncased on Hate Speech Detection"
+description: NLP application for toxic language classification
 img: assets/img/4.jpg
-importance: 1
+importance: 7
 category: work
-related_publications: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Fine-tuned BERT-base-uncased model on the Kaggle Hate Speech Dataset to classify toxic language with improved accuracy and robust performance.
+
+### Key Accomplishments
+
+- **Improved Accuracy**: Enhanced performance in toxic language classification
+- **Comprehensive Techniques**: Applied tokenization, model evaluation, and hyperparameter tuning
+- **Real-world Application**: Optimized for practical NLP applications
+- **Production-Ready**: Ready for deployment in content moderation systems
+
+### Technical Implementation
+
+- BERT tokenization and preprocessing
+- Model evaluation using standard NLP metrics
+- Hyperparameter optimization for best performance
+- Fine-tuning on domain-specific hate speech dataset
+
+### Technologies Used
+- BERT (Hugging Face)
+- Transformers Library
+- PyTorch
+- NLP & Deep Learning
+
+### Development Timeline
+- **Start Date**: September 2024
+- **End Date**: September 2024
+
+### Applications
+
+Can be used for content moderation, social media safety, and toxic comment detection across platforms.
 
     ---
     layout: page

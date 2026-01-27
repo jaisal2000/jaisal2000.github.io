@@ -1,23 +1,37 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: "Medical Chatbot & Knowledge Retrieval Systems"
+description: RAG-based medical research assistant application
+img: assets/img/8.jpg
+importance: 4
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+An AI-powered medical research assistant leveraging LangChain and Pinecone to implement advanced document retrieval techniques and generative capabilities.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
+### Key Features
+
+- **Document Processing**: Processes 5,699 text chunks from clinical literature
+- **Hybrid NLP Pipeline**: Combines dense vector embeddings with LLM generative capabilities
+- **Advanced Retrieval**: Sophisticated document ranking and selection
+- **RAG Implementation**: Retrieval-Augmented Generation for accurate medical information
+
+### Technologies Used
+- LangChain
+- Pinecone (Vector Database)
+- RAG Architecture
+- Vector Embeddings
+- Python
+
+### Development Timeline
+- **Start Date**: June 2024
+- **End Date**: June 2024
+
+### Use Cases
+
+Provides healthcare professionals with intelligent research assistance, enabling fast and accurate retrieval of relevant clinical information.
     ---
 
 <div class="row">
