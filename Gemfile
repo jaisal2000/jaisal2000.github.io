@@ -4,7 +4,7 @@ gem 'jekyll'
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
-    gem 'wdm', '>= 0.1.0'  # required by jekyll for file watching on Windows
+    gem 'wdm', '>= 0.1.0', :platforms => [:mswin, :mingw, :x64_mingw] # required by jekyll for file watching on Windows
     gem 'jekyll-3rd-party-libraries'
     gem 'jekyll-archives-v2'
     gem 'jekyll-cache-bust'
