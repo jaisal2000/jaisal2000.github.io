@@ -73,6 +73,16 @@ cv:
           - "Applied this vision-based system for flood monitoring across Nepal's rivers, analyzing flow vectors to detect critical discharge rates and enhance non-intrusive early warning capabilities"
 
     Teaching_Experience:
+      - position: Teaching Assistant
+        company: IOE, Pulchowk Campus
+        location: Lalitpur, Nepal
+        start_date: 2024-12-01
+        end_date: 2025-04-01
+        summary: Samsung Innovation Campus (SIC) Program
+        highlights:
+          - "Mentored students in core Python programming concepts for the Samsung Innovation Campus (SIC), focusing on problem-solving, code optimization, and clean coding practices"
+          - "Provided hands-on tutorials in coding and supervised projects"
+
       - position: Latex (Overleaf) Instructor
         company: IEEE Pulchowk
         location: Lalitpur, Nepal

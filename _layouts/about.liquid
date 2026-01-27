@@ -64,15 +64,6 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
-
     <!-- Projects on homepage -->
     {% if page.projects and page.projects.enabled %}
       <h2>
@@ -87,6 +78,15 @@ layout: default
             {% include projects.liquid %}
           {% endif %}
         {% endfor %}
+      </div>
+    {% endif %}
+
+    <!-- Social -->
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% social_links %}</div>
+
+        <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
 

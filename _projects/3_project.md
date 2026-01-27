@@ -1,103 +1,38 @@
 ---
 layout: page
-title: "Defending Against RAG Prompt Injection Using DPO-Based Fine-Tuning"
-description: Security in RAG systems against adversarial attacks
-img: assets/img/7.jpg
+title: "GraLLM-Tutor: An Explainable AI Framework"
+description: LLM + Knowledge Graph integration for educational AI systems
+img: assets/img/6.jpg
 importance: 3
 category: work
+related_publications: false
 ---
 
 ## Overview
 
-This project focuses on securing Retrieval-Augmented Generation (RAG) systems against prompt injection attacks using Direct Preference Optimization (DPO) fine-tuning.
+An innovative explainable AI (XAI) framework that synergizes a large language model (Llama 3) with a structured commonsense knowledge graph (ConceptNet) to ground AI-generated answers in verifiable logic.
 
-### Key Components
+### Key Features
 
-- **Adversarial Attack Execution**: Multi-turn poisoned knowledge bases and automatically generated adversarial queries
-- **Indirect Prompt Injection Testing**: Advanced attack scenarios on RAG systems
-- **DPO Defense Implementation**: Direct Preference Optimization with LoRA adapters
-- **Dual Objective**: Resist misinformation while maintaining utility on benign queries
+- **Explainable AI Framework**: Synergizes Llama 3 LLM with ConceptNet knowledge graph
+- **Automated Reasoning Pipeline**: 
+  - LLM-based concept extraction
+  - Relational path queries via ConceptNet API
+  - Knowledge fragment synthesis into clear explanations
+- **Educational Focus**: Specifically designed for educational AI systems
 
 ### Technologies Used
-- RAG Systems
-- Direct Preference Optimization (DPO)
-- LoRA Adapters
-- Large Language Models (LLMs)
-- Security & Adversarial Testing
+- Llama 3
+- ConceptNet
+- Graph Neural Networks (GNNs)
+- Python
 
 ### Development Timeline
-- **Start Date**: April 2025
-- **End Date**: April 2025
+- **Date**: April 2025
+
+### Links
+- [GitHub Repository](https://github.com/jaisal2000/Conceptual-Explanation-LLM.git)
 
 ### Impact
 
-Demonstrates effective defenses against sophisticated prompt injection attacks while preserving model utility on legitimate queries.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+This framework demonstrates how combining structured knowledge graphs with powerful language models can create more transparent and trustworthy AI systems for educational applications.

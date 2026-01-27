@@ -2,17 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: Electronics, Communication, and Information Engineer
+subtitle: <strong>Electronics, Communication, and Information Engineer</strong> · AI/ML Researcher
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>Kathmandu, Nepal</p>
+    <p>sharmajaisal23 [at] gmail [dot] com</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-
 
 announcements:
   enabled: false # includes a list of news items
@@ -32,17 +32,50 @@ projects:
 social: true # includes social icons at the bottom of the page
 ---
 
-I am Jaisal Sharma, an Electronics, Communication, and Information Engineer with a passion for Machine Learning, Deep Learning Systems, and AI security. My research interests include:
+Hello! I'm **Jaisal Sharma**, a recent graduate in Electronics, Communication, and Information Engineering from **Pulchowk Campus, Tribhuvan University**. I'm passionate about pushing the boundaries of AI research, with a focus on building intelligent systems that are both powerful and trustworthy.
 
-- **Machine Learning and Deep Learning Systems**
-- **NLP and Generative AI (LLM, RAG)**
-- **AI Security and Vulnerabilities**
-- **Trustworthy and Fairness in AI**
-- **Computer Vision**
-- **LLMs and Knowledge Graph Integration**
+---
 
-I have hands-on experience developing innovative AI solutions, including explainable AI frameworks, RAG-based applications, prompt injection defenses, and GANs for image processing. My work has been published in peer-reviewed conferences and recognized with best presentation awards.
+## 🔬 Research Interests
 
-This is my personal academic website where I share my research, projects, and insights. You'll find detailed information about my publications, projects, technical skills, and professional experience. Feel free to explore my work and connect with me through the social links below or via email at **sharmajaisal23@gmail.com** or **+977-9818503256**.
+<div class="row mt-3">
+  <div class="col-sm-6">
+    <ul>
+      <li><strong>Machine Learning & Deep Learning Systems</strong></li>
+      <li><strong>NLP & Generative AI</strong> (LLM, RAG)</li>
+      <li><strong>Computer Vision</strong></li>
+    </ul>
+  </div>
+  <div class="col-sm-6">
+    <ul>
+      <li><strong>Graph Neural Networks</strong></li>
+      <li><strong>Trustworthy & Fair AI</strong></li>
+      <li><strong>LLM-Knowledge Graph Integration</strong></li>
+    </ul>
+  </div>
+</div>
 
+---
 
+## 🏆 Recent Highlights
+
+- 🎓 **B.E. in Electronics, Communication and Information Engineering** — Pulchowk Campus (Dec 2024)
+- 📄 **Published at ICACS 2025** — ACM Digital Library (Scopus & Ei Compendex indexed)
+- 🥇 **Best Presentation Award** — 9th International Conference on Algorithms, Computing and Systems, Bangkok
+- 🏅 **Full Scholarship** — All Nepal Rank 252 (Top 4%) for undergraduate studies
+
+---
+
+## 💡 What I Do
+
+I develop innovative AI solutions spanning multiple domains:
+
+- **Explainable AI Frameworks** — Combining LLMs with knowledge graphs for transparent reasoning
+- **Question Answering Systems** — GNN-based approaches for commonsense reasoning
+- **Medical AI** — Deep learning for brain tumor classification and stroke prediction
+- **Adversarial ML** — Studying robustness and security of vision models
+- **Generative Models** — GANs for image colorization (published research)
+
+---
+
+Feel free to explore my [projects](/projects/), check out my [publications](/publications/), or view my detailed [CV](/cv/). I'm always open to collaborations and discussions—reach out via the social links below!

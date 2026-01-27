@@ -1,105 +1,35 @@
 ---
 layout: page
-title: "Image Colorization using Deep Learning (GANs)"
-description: Computer vision application using generative models
+title: "Adversarial Attacks on ResNeXt101"
+description: Investigating FGSM attacks for scene classification security
 img: assets/img/5.jpg
 importance: 5
 category: work
+related_publications: false
 ---
 
 ## Overview
 
-A deep learning-based approach to automated image colorization utilizing generative adversarial networks (GANs) to transform black and white images into realistic color versions.
+Investigation of adversarial attacks on deep learning models, specifically implementing and evaluating Fast Gradient Sign Method (FGSM) attacks on ResNeXt101 for scene classification.
 
-### Key Achievements
+### Key Findings
 
-- **GAN Implementation**: Developed custom generative adversarial network architecture
-- **Color Model Research**: Evaluated effectiveness across LAB, YUV, and HSI color models
-- **Comprehensive Literature Review**: Studied state-of-the-art image colorization methods
-- **Practical Application**: Useful approach in computer vision applications
-
-### Technical Approach
-
-- Generative model trained to produce realistic color predictions
-- Discriminative model to evaluate color authenticity
-- Multi-color space analysis for optimal results
+- **Security Vulnerabilities**: Demonstrated significant accuracy degradation with increasing perturbation strengths (from 0 to 0.3)
+- **Quantitative Analysis**: Provided comprehensive analysis of model vulnerability to adversarial inputs
+- **Visual Analysis**: Created visualizations revealing critical security weaknesses in deep learning models
 
 ### Technologies Used
 - PyTorch
-- Generative Adversarial Networks (GANs)
-- OpenCV
-- Deep Learning
+- ResNeXt101
+- FGSM Attack Implementation
+- Computer Vision
 
 ### Development Timeline
-- **Start Date**: June 2023
-- **End Date**: February 2024
+- **Date**: December 2024
 
-### Research Publication
+### Links
+- [GitHub Repository](https://github.com/jaisal2000/Adversarial-Attacks-on-Classification-Model.git)
 
-This work was published as "Automated Image Colorization using Generative Adversarial Networks" and presented at ICACS 2025 in Bangkok, receiving a Best Presentation Award.
+### Impact
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+This research underscores the importance of robust defenses in real-world AI systems and provides insights into building more secure machine learning models.

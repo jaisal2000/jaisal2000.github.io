@@ -1,107 +1,41 @@
 ---
 layout: page
-title: "Graph Neural Networks Recommender System with LightGCN"
-description: Recommendation system using graph-based deep learning
-img: assets/img/6.jpg
+title: "Explainable ML for Stroke Prediction"
+description: Interpretable machine learning with LIME, SHAP, and InterpretML
+img: assets/img/7.jpg
 importance: 6
 category: work
+related_publications: false
 ---
 
 ## Overview
 
-A recommendation system leveraging LightGCN (Light Graph Convolutional Network) with supervised learning to provide accurate and efficient recommendations.
+An interpretable machine learning pipeline for stroke prediction on Electronic Health Records (EHR) data, applying explainability techniques for clinical insight.
 
-### Key Features
+### Key Achievements
 
-- **LightGCN Architecture**: Simplified yet powerful graph neural network design
-- **Supervised Learning**: Fine-tuned learning techniques for enhanced performance
-- **Hyperparameter Optimization**: Systematic tuning for best performance
-- **Comprehensive Evaluation**: Uses precision and F1 score metrics
+- **91% Accuracy**: Achieved high accuracy with macro F1-score of 0.78
+- **Multi-Method Explainability**: Applied LIME, SHAP, and InterpretML for transparent explanations
+- **Class Imbalance Handling**: Successfully addressed class imbalance via oversampling techniques
 
-### Implementation Details
-
-- Graph-based representation of user-item interactions
-- Efficient convolution operations for scalability
-- Supervised ranking for personalized recommendations
-- Performance evaluation using standard metrics
+### Explainability Methods
+- **LIME**: Local Interpretable Model-agnostic Explanations
+- **SHAP**: SHapley Additive exPlanations
+- **InterpretML**: Microsoft's interpretable machine learning toolkit
 
 ### Technologies Used
-- PyTorch Geometric
-- LightGCN
-- Graph Neural Networks (GNNs)
-- Supervised Learning
 - Python
+- Scikit-Learn
+- LIME
+- SHAP
+- InterpretML
 
 ### Development Timeline
-- **Start Date**: June 2024
-- **End Date**: June 2024
+- **Date**: December 2024
+
+### Links
+- [GitHub Repository](https://github.com/jaisal2000/Explainable-AI-XAI-Project.git)
 
 ### Impact
 
-Demonstrates how graph neural networks can effectively model collaborative filtering for personalized recommendations with improved efficiency.
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+This project enables clinical insight into risk factors for stroke prediction, demonstrating the importance of explainability in healthcare AI applications.

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "GraLLM-Tutor: An Explainable AI Framework"
-description: LLM + Knowledge Graph integration for educational AI systems
+title: "Brain Tumor Classification: CNN vs Vision Transformer"
+description: Multi-axis evaluation of deep learning architectures for medical imaging
 img: assets/img/12.jpg
 importance: 1
 category: work
@@ -10,64 +10,26 @@ related_publications: false
 
 ## Overview
 
-GraLLM-Tutor is an innovative explainable AI (XAI) framework that synergizes a large language model (Llama 3) with a structured commonsense knowledge graph (ConceptNet) to ground AI-generated answers in verifiable logic.
+A comprehensive study comparing Convolutional Neural Networks (ResNet-34) and Vision Transformers (ViT) for brain tumor classification in medical imaging applications.
 
-### Key Features
+### Key Achievements
 
-- **Engineered Explainable AI Framework**: Synergizes Llama 3 LLM with ConceptNet knowledge graph
-- **Automated Reasoning Pipeline**: 
-  - LLM-based concept extraction
-  - Relational path queries via ConceptNet API
-  - Knowledge fragment synthesis into clear explanations
-- **Educational Focus**: Specifically designed for educational AI systems
+- **99.3% Classification Accuracy**: Achieved state-of-the-art results on brain tumor classification
+- **Architectural Comparison**: Investigated trade-offs between CNNs and Vision Transformers for medical imaging
+- **Robustness Analysis**: Demonstrated ViT's self-attention mechanism yields superior feature localization and robustness to noise
 
 ### Technologies Used
-- Llama 3
-- ConceptNet
-- Graph Neural Networks (GNNs)
-- Python
+- PyTorch
+- ResNet-34
+- Vision Transformer (ViT)
+- Medical Image Processing
 
 ### Development Timeline
-- **Start Date**: April 2025
-- **End Date**: April 2025
+- **Date**: August 2025
+
+### Links
+- [GitHub Repository](https://github.com/jaisal2000/Deep-Learning-Medical-Projects)
 
 ### Impact
 
-This framework demonstrates how combining structured knowledge graphs with powerful language models can create more transparent and trustworthy AI systems for educational applications.
-  </div>
----
-layout: page
-title: "GraLLM-Tutor: An Explainable AI Framework"
-description: LLM + Knowledge Graph integration for educational AI systems
-img: assets/img/12.jpg
-importance: 1
-category: work
-related_publications: false
----
-
-## Overview
-
-GraLLM-Tutor is an innovative explainable AI (XAI) framework that synergizes a large language model (Llama 3) with a structured commonsense knowledge graph (ConceptNet) to ground AI-generated answers in verifiable logic.
-
-### Key Features
-
-- **Engineered Explainable AI Framework**: Synergizes Llama 3 LLM with ConceptNet knowledge graph
-- **Automated Reasoning Pipeline**:
-  - LLM-based concept extraction
-  - Relational path queries via ConceptNet API
-  - Knowledge fragment synthesis into clear explanations
-- **Educational Focus**: Specifically designed for educational AI systems
-
-### Technologies Used
-- Llama 3
-- ConceptNet
-- Graph Neural Networks (GNNs)
-- Python
-
-### Development Timeline
-- **Start Date**: April 2025
-- **End Date**: April 2025
-
-### Impact
-
-This framework demonstrates how combining structured knowledge graphs with powerful language models can create more transparent and trustworthy AI systems for educational applications.
+This project demonstrates the potential of Vision Transformers in medical imaging, providing insights into when to choose transformer-based architectures over traditional CNNs for clinical applications.
