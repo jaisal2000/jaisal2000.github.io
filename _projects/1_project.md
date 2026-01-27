@@ -19,15 +19,18 @@ A comprehensive study comparing Convolutional Neural Networks (ResNet-34) and Vi
 - **Robustness Analysis**: Demonstrated ViT's self-attention mechanism yields superior feature localization and robustness to noise
 
 ### Technologies Used
+
 - PyTorch
 - ResNet-34
 - Vision Transformer (ViT)
 - Medical Image Processing
 
 ### Development Timeline
+
 - **Date**: August 2025
 
 ### Links
+
 - [GitHub Repository](https://github.com/jaisal2000/Deep-Learning-Medical-Projects)
 
 ### Impact

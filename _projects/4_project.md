@@ -19,15 +19,18 @@ Implementation of the DCQA research paper (ECAI 2024), re-architecting a T5-Base
 - **Memory Efficiency**: Engineered training pipeline using Mixed Precision (FP16) and gradient accumulation for T4 GPUs
 
 ### Technologies Used
+
 - T5-Base
 - PyTorch
 - Mixed Precision Training
 - GPU Optimization
 
 ### Development Timeline
+
 - **Date**: November 2025
 
 ### Links
+
 - [GitHub Repository](https://github.com/jaisal2000/SemDiff-QA-Semantic-Differentiation-for-Multiple-Choice-QA.git)
 
 ### Impact

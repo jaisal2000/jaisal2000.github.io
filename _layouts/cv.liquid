@@ -124,7 +124,6 @@ layout: default
         {% comment %} First, combine Experience and Volunteer entries {% endcomment %}
         {% assign experience_entries = cv.sections.Experience | default: empty %}
         {% assign volunteer_entries = cv.sections.Volunteer | default: empty %}
-        
 
         {% if combined_experience.size > 0 %}
           <a class="anchor" id="experience"></a>
@@ -175,7 +174,10 @@ layout: default
               {% elsif section_title == 'Projects' or section_title == 'Open Source Projects' %}
                 {% assign entries = section_entries %}
                 {% include cv/projects.liquid %}
-              {% elsif section_title == 'Research_Experience' or section_title == 'Teaching_Experience' or section_title == 'Leadership_and_Volunteering' %}
+              {% elsif section_title == 'Research_Experience'
+                or section_title == 'Teaching_Experience'
+                or section_title == 'Leadership_and_Volunteering'
+              %}
                 {% assign entries = section_entries %}
                 {% include cv/experience.liquid %}
               {% else %}

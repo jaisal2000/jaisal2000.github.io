@@ -15,22 +15,25 @@ An innovative explainable AI (XAI) framework that synergizes a large language mo
 ### Key Features
 
 - **Explainable AI Framework**: Synergizes Llama 3 LLM with ConceptNet knowledge graph
-- **Automated Reasoning Pipeline**: 
+- **Automated Reasoning Pipeline**:
   - LLM-based concept extraction
   - Relational path queries via ConceptNet API
   - Knowledge fragment synthesis into clear explanations
 - **Educational Focus**: Specifically designed for educational AI systems
 
 ### Technologies Used
+
 - Llama 3
 - ConceptNet
 - Graph Neural Networks (GNNs)
 - Python
 
 ### Development Timeline
+
 - **Date**: April 2025
 
 ### Links
+
 - [GitHub Repository](https://github.com/jaisal2000/Conceptual-Explanation-LLM.git)
 
 ### Impact

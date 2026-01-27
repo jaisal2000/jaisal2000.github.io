@@ -19,15 +19,18 @@ Investigation of adversarial attacks on deep learning models, specifically imple
 - **Visual Analysis**: Created visualizations revealing critical security weaknesses in deep learning models
 
 ### Technologies Used
+
 - PyTorch
 - ResNeXt101
 - FGSM Attack Implementation
 - Computer Vision
 
 ### Development Timeline
+
 - **Date**: December 2024
 
 ### Links
+
 - [GitHub Repository](https://github.com/jaisal2000/Adversarial-Attacks-on-Classification-Model.git)
 
 ### Impact

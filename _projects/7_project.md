@@ -19,22 +19,25 @@ A deep learning-based image colorization method utilizing Generative Adversarial
 - **Published Research**: This work was published at ICACS 2025 and received the Best Presentation Award
 
 ### Technologies Used
+
 - PyTorch
 - Generative Adversarial Networks (GANs)
 - OpenCV
 - Deep Learning
 
 ### Development Timeline
+
 - **Start Date**: June 2023
 - **End Date**: February 2024
 
 ### Links
+
 - [GitHub Repository](https://github.com/jaisal2000/Image-Colorization-using-Deep-Learning)
 
 ### Publication
 
 **Automated Image Colorization using Generative Adversarial Networks**  
-*9th International Conference on Algorithms, Computing and Systems (ICACS), Bangkok, Thailand*  
+_9th International Conference on Algorithms, Computing and Systems (ICACS), Bangkok, Thailand_  
 Accepted for ACM Digital Library (Scopus & Ei Compendex)  
 🏆 **Best Presentation Award**
 

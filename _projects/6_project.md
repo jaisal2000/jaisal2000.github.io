@@ -19,11 +19,13 @@ An interpretable machine learning pipeline for stroke prediction on Electronic H
 - **Class Imbalance Handling**: Successfully addressed class imbalance via oversampling techniques
 
 ### Explainability Methods
+
 - **LIME**: Local Interpretable Model-agnostic Explanations
 - **SHAP**: SHapley Additive exPlanations
 - **InterpretML**: Microsoft's interpretable machine learning toolkit
 
 ### Technologies Used
+
 - Python
 - Scikit-Learn
 - LIME
@@ -31,9 +33,11 @@ An interpretable machine learning pipeline for stroke prediction on Electronic H
 - InterpretML
 
 ### Development Timeline
+
 - **Date**: December 2024
 
 ### Links
+
 - [GitHub Repository](https://github.com/jaisal2000/Explainable-AI-XAI-Project.git)
 
 ### Impact

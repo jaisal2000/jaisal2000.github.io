@@ -178,58 +178,25 @@
       "name": "Programming Languages",
       "level": "Advanced",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "C++",
-        "C",
-        "Python",
-        "SQL"
-      ]
+      "keywords": ["C++", "C", "Python", "SQL"]
     },
     {
       "name": "Frameworks/Technologies",
       "level": "Advanced",
       "icon": "fa-solid fa-cogs",
-      "keywords": [
-        "PyTorch",
-        "OpenCV",
-        "LangChain",
-        "NumPy",
-        "Pandas",
-        "PyTorch Geometric",
-        "Streamlit",
-        "Scikit-Learn",
-        "Flask",
-        "HTML",
-        "CSS"
-      ]
+      "keywords": ["PyTorch", "OpenCV", "LangChain", "NumPy", "Pandas", "PyTorch Geometric", "Streamlit", "Scikit-Learn", "Flask", "HTML", "CSS"]
     },
     {
       "name": "Machine Learning & AI",
       "level": "Advanced",
       "icon": "fa-solid fa-brain",
-      "keywords": [
-        "Deep Learning",
-        "NLP",
-        "LLMs",
-        "RAG",
-        "GANs",
-        "Graph Neural Networks",
-        "Transfer Learning",
-        "Fine-tuning"
-      ]
+      "keywords": ["Deep Learning", "NLP", "LLMs", "RAG", "GANs", "Graph Neural Networks", "Transfer Learning", "Fine-tuning"]
     },
     {
       "name": "Tools",
       "level": "Intermediate",
       "icon": "fa-solid fa-tools",
-      "keywords": [
-        "MS Office",
-        "Google Suites",
-        "Overleaf (LaTeX)",
-        "MATLAB",
-        "Proteus Simulation",
-        "n8n automation"
-      ]
+      "keywords": ["MS Office", "Google Suites", "Overleaf (LaTeX)", "MATLAB", "Proteus Simulation", "n8n automation"]
     }
   ],
   "languages": [
@@ -248,56 +215,32 @@
     {
       "name": "Machine Learning and Deep Learning Systems",
       "icon": "fa-solid fa-brain",
-      "keywords": [
-        "Deep Learning",
-        "Neural Networks",
-        "Model Optimization"
-      ]
+      "keywords": ["Deep Learning", "Neural Networks", "Model Optimization"]
     },
     {
       "name": "NLP and Generative AI",
       "icon": "fa-solid fa-comments",
-      "keywords": [
-        "LLM",
-        "RAG",
-        "Text Generation"
-      ]
+      "keywords": ["LLM", "RAG", "Text Generation"]
     },
     {
       "name": "Computer Vision",
       "icon": "fa-solid fa-eye",
-      "keywords": [
-        "Image Processing",
-        "GANs",
-        "Object Detection"
-      ]
+      "keywords": ["Image Processing", "GANs", "Object Detection"]
     },
     {
       "name": "Trustworthy and Fairness in AI",
       "icon": "fa-solid fa-shield-alt",
-      "keywords": [
-        "Explainable AI",
-        "Fair ML",
-        "AI Ethics"
-      ]
+      "keywords": ["Explainable AI", "Fair ML", "AI Ethics"]
     },
     {
       "name": "Graph Neural Networks",
       "icon": "fa-solid fa-project-diagram",
-      "keywords": [
-        "GNNs",
-        "Knowledge Graphs",
-        "Graph Learning"
-      ]
+      "keywords": ["GNNs", "Knowledge Graphs", "Graph Learning"]
     },
     {
       "name": "LLMs and Knowledge Graph Integration",
       "icon": "fa-solid fa-network-wired",
-      "keywords": [
-        "Knowledge Graphs",
-        "Semantic Reasoning",
-        "ConceptNet"
-      ]
+      "keywords": ["Knowledge Graphs", "Semantic Reasoning", "ConceptNet"]
     }
   ],
   "references": [],

@@ -19,15 +19,18 @@ A replication study of the FAHT framework (IJCAI 2019), implementing a custom de
 - **Custom Implementation**: Built decision tree induction algorithm from scratch with fairness constraints
 
 ### Technologies Used
+
 - Python
 - Scikit-Learn
 - Fair ML Techniques
 - Statistical Analysis
 
 ### Development Timeline
+
 - **Date**: November 2025
 
 ### Links
+
 - [Project Report](https://drive.google.com/file/d/1AzhIyYKFtNcUQxEr7iDv90uaTwK_WP9Q/view?usp=sharing)
 
 ### Impact
