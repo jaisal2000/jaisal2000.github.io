@@ -80,9 +80,4 @@ I develop innovative AI solutions spanning multiple domains:
 
 Feel free to explore my [projects](/projects/), check out my [publications](/publications/), or view my detailed [CV](/cv/). I'm always open to collaborations and discussions—reach out via the social links below!
 
-<script
-  type="text/javascript"
-  id="mapmyvisitors"
-  src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=n&d=_lrvv6AnxIliki06HKhz2TTcVFylfi5DWtGep2rIiV0">
-</script>
 
