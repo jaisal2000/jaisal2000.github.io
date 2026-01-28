@@ -12,7 +12,7 @@ profile:
     <p>Kathmandu, Nepal</p>
     <p>sharmajaisal23 [at] gmail [dot] com</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: true # include a list of papers marked as "selected={true}"
 
 announcements:
   enabled: false # includes a list of news items
