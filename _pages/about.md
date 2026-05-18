@@ -12,7 +12,7 @@ profile:
     <p>Kathmandu, Nepal</p>
     <p>sharmajaisal23 [at] gmail [dot] com</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: true # include a list of papers marked as "selected={true}"
 
 announcements:
   enabled: false # includes a list of news items
@@ -79,3 +79,5 @@ I develop innovative AI solutions spanning multiple domains:
 ---
 
 Feel free to explore my [projects](/projects/), check out my [publications](/publications/), or view my detailed [CV](/cv/). I'm always open to collaborations and discussions—reach out via the social links below!
+
+
